@@ -7,11 +7,12 @@
   "type": "module",
   "main": "index.ts",
   "scripts": {
-       "build": "tsc",
-       "start": "npm run build && node dist/index.js",
-       "dev": "node --loader ts-node/esm index.ts"
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "node --loader ts-node/esm index.ts"
   },
   "devDependencies": {
+    "prettier": "^3.8.3",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   }
